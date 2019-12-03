@@ -1,19 +1,19 @@
 {
-  "name": "vscode-example-test-adapter",
-  "displayName": "Example Test Explorer",
-  "description": "Run your Example tests in the Sidebar of Visual Studio Code",
+  "name": "vscode-elixir-test-adapter",
+  "displayName": "Elxir Test Explorer",
+  "description": "Run your Elixir tests in the Sidebar of Visual Studio Code",
   "icon": "img/icon.png",
-  "author": "Holger Benl <hbenl@evandor.de>",
-  "publisher": "hbenl",
+  "author": "Jörg Stritzinger <cyberyorg@googlemail.de>",
+  "publisher": "joergstritzinger",
   "version": "0.0.1",
   "license": "MIT",
-  "homepage": "https://github.com/hbenl/vscode-example-test-adapter",
+  "homepage": "https://github.com/joergstritzinger/vscode-elixir-test-adapter",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hbenl/vscode-example-test-adapter.git"
+    "url": "https://github.com/joergstritzinger/vscode-elixir-test-adapter.git"
   },
   "bugs": {
-    "url": "https://github.com/hbenl/vscode-example-test-adapter/issues"
+    "url": "https://github.com/joergstritzinger/vscode-elixir-test-adapter/issues"
   },
   "categories": [
     "Other"
@@ -53,10 +53,10 @@
   "contributes": {
     "configuration": {
       "type": "object",
-      "title": "Example Test Explorer configuration",
+      "title": "Elixir Test Explorer configuration",
       "properties": {
         "exampleExplorer.logpanel": {
-          "description": "write diagnotic logs to an output panel",
+          "description": "write diagnostic logs to an output panel",
           "type": "boolean",
           "scope": "resource"
         },
